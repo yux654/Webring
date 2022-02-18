@@ -1,25 +1,422 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+body{
+  font-family:Helvetica, Arial, Sans-Serif;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+/*Background Colors*/
+.homepage{
+  background-color: white;
 }
 
-/* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+/*removing pullet points*/
+ul{
+  list-style-type: none;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+/*HOMEPAGE css*/
+.studio{
+  font-size: 40px;
+  margin-top: -8%;
+  margin-left: 60%;
+}
+
+.lab{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 74%;
+}
+
+.class{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 84%;
+}
+
+.bio{
+  font-size:20px;
+  margin-left: 6%;
+  margin-top: -2%;
+}
+
+.rectangle{
+  background-color:yellow;
+  width: 100vw;
+  height:50vh;
+  margin-top:-10;
+  margin-left: 5;
+}
+
+h1{
+  font-size: 230px;
+  margin-top: 1%;
+  position: relative;
+  margin-left: 6%;
+}
+
+
+.studio a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.lab a{
+  color: black;
+  text-decoration: none;
+}
+
+.class a{
+  color: black;
+  text-decoration: none;
+}
+
+.studio:hover{
+  opacity: 0.5;
+}
+
+.lab:hover{
+  opacity: 0.5;
+}
+
+.class:hover{
+  opacity: 0.5;
+}
+
+/*STUDIO page css*/
+
+.studio1{
+  font-size: 40px;
+  margin-top: -8%;
+  margin-left: 60%;
+}
+
+.lab1{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 74%;
+}
+
+.class1{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 84%;
+}
+
+.rectangle1{
+  background-color:pink;
+  width: 100vw;
+  height:50vh;
+  margin-top:-10;
+  margin-left: 5;
+}
+
+.studio1 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 78px;
+height: 84px;
+left: 908px;
+top: 795px;
+}
+
+.lab1 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 321px;
+height: 84px;
+left: 1080px;
+top: 795px;
+
+}
+
+.class1 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 404px;
+height: 189px;
+left: 1205px;
+top: 795px;
+
+}
+
+.studio1:hover{
+  opacity: 0.5;
+}
+
+.lab1:hover{
+  opacity: 0.5;
+}
+
+.class1:hover{
+  opacity: 0.5;
+}
+
+/*STUDIO page name tag*/
+p1{
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+/*ace of heart position*/
+#aoh{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 169px;
+top: 261px;
+}
+
+/*two of heart position*/
+#toh{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 449px;
+top: 370px;
+}
+
+/*three of heart position*/
+#thoh{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 815px;
+top: 184px;
+}
+
+/*four of heart position*/
+#foh{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 1210px;
+top: 512px;
+}
+
+/*LAB page css*/
+
+.studio2{
+  font-size: 40px;
+  margin-top: -8%;
+  margin-left: 60%;
+}
+
+.lab2{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 74%;
+}
+
+.class2{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 84%;
+}
+
+.rectangle2{
+  background-color:blue;
+  width: 100vw;
+  height:50vh;
+  margin-top:-10;
+  margin-left: 5;
+}
+
+.studio2 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 78px;
+height: 84px;
+left: 908px;
+top: 795px;
+}
+
+
+.lab2 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 321px;
+height: 84px;
+left: 1080px;
+top: 795px;
+
+}
+
+.class2 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 404px;
+height: 189px;
+left: 1205px;
+top: 795px;
+}
+
+.studio2:hover{
+  opacity: 0.5;
+}
+
+.lab2:hover{
+  opacity: 0.5;
+}
+
+.class2:hover{
+  opacity: 0.5;
+}
+
+/*studio page name tag*/
+h2{
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+#aos{
+  position: absolute;
+position: absolute;
+width: 450px;
+height: 650px;
+left: 155px;
+top: 184px;
+}
+
+#tos{
+position: absolute;
+width: 450px;
+height: 650px;
+left: 328px;
+top: 582px;
+}
+
+#thos{
+position: absolute;
+width: 450px;
+height: 650px;
+left: 815px;
+top: 403px;
+}
+
+#fos{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 1269px;
+top: 239px;
+}
+
+/*CLASS css*/
+.studio3{
+  font-size: 40px;
+  margin-top: -8%;
+  margin-left: 60%;
+}
+
+.lab3{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 74%;
+  background-color: orange;
+}
+
+.class3{
+  font-size: 40px;
+  margin-top: -3.2%;
+  margin-left: 84%;
+}
+
+.rectangle3{
+  background-color:purple;
+  width: 100vw;
+  height:50vh;
+  margin-top:-10;
+  margin-left: 5;
+}
+
+.studio3 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 78px;
+height: 84px;
+left: 908px;
+top: 795px;
+}
+
+
+.lab3 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 321px;
+height: 84px;
+left: 1080px;
+top: 795px;
+
+}
+
+.class3 a{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+width: 404px;
+height: 189px;
+left: 1205px;
+top: 795px;
+}
+
+.studio3:hover{
+  opacity: 0.5;
+}
+
+.lab3:hover{
+  opacity: 0.5;
+}
+
+.class3:hover{
+  opacity: 0.5;
+}
+
+/*CLASS page name tag*/
+h3{
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.aod{
+  position: absolute;
+position: absolute;
+width: 450px;
+height: 650px;
+left: 155px;
+top: 184px;
+}
+
+.tod{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 328px;
+top: 582px;
+}
+
+.thod{
+position: absolute;
+width: 450px;
+height: 650px;
+left: 815px;
+top: 403px;
+}
+
+.fod{
+  position: absolute;
+width: 450px;
+height: 650px;
+left: 1269px;
+top: 239px;
 }
