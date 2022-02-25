@@ -389,16 +389,15 @@ h3{
 }
 
 .aod{
-  position: absolute;
 position: absolute;
 width: 450px;
 height: 650px;
-left: 155px;
+right: 100%;
 top: 184px;
 }
 
 .tod{
-  position: absolute;
+position: absolute;
 width: 450px;
 height: 650px;
 left: 328px;
@@ -417,6 +416,6 @@ top: 403px;
   position: absolute;
 width: 450px;
 height: 650px;
-left: 1269px;
-top: 239px;
+margin-left: 15%;
+margin-top: 20%;
 }
