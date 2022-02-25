@@ -164,8 +164,8 @@ p1{
 /*ace of heart position*/
 #aoh{
   position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 169px;
 top: 261px;
 }
@@ -173,8 +173,8 @@ top: 261px;
 /*two of heart position*/
 #toh{
   position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 449px;
 top: 370px;
 }
@@ -182,8 +182,8 @@ top: 370px;
 /*three of heart position*/
 #thoh{
   position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 815px;
 top: 184px;
 }
@@ -191,8 +191,8 @@ top: 184px;
 /*four of heart position*/
 #foh{
   position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 1210px;
 top: 512px;
 }
@@ -279,32 +279,32 @@ h2{
 #aos{
   position: absolute;
 position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 155px;
 top: 184px;
 }
 
 #tos{
 position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 328px;
 top: 582px;
 }
 
 #thos{
 position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 815px;
 top: 403px;
 }
 
 #fos{
   position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 1269px;
 top: 239px;
 }
@@ -390,32 +390,32 @@ h3{
 
 .aod{
 position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 right: 100%;
 top: 184px;
 }
 
 .tod{
 position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 328px;
 top: 582px;
 }
 
 .thod{
 position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 left: 815px;
 top: 403px;
 }
 
 .fod{
   position: absolute;
-width: 450px;
-height: 650px;
+width: 4%;
+height: 10%;
 margin-left: 15%;
 margin-top: 20%;
 }
